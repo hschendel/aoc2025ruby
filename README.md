@@ -28,3 +28,7 @@ match is exhaustive causing incomplete parsing without an error :D
 In part two I first tried to calculate the number of
 "zero crossings" by a formula, but looking at all the
 edge cases I went for the stupid approach.
+
+## Day 02 - Gift Shop
+
+Reacquainted myself with Ruby's slicing syntax `[start, length]` vs. `[from..to]` (range) :-D
