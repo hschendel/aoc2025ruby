@@ -32,3 +32,7 @@ edge cases I went for the stupid approach.
 ## Day 02 - Gift Shop
 
 Reacquainted myself with Ruby's slicing syntax `[start, length]` vs. `[from..to]` (range) :-D
+
+## Day 03 - Lobby
+
+The solution is simple, but I had a few false starts.
