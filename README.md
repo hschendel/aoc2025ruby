@@ -20,6 +20,8 @@ They can be used like in this example:
 6122
 ```
 
+Calling the script without parameter will use `test.txt` as the input.
+
 ## Day 01 - Secret Entrance
 
 Regular expressions are part of the language, which is nice.

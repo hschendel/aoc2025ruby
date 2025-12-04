@@ -1,6 +1,19 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+def process(filename)
+  total_joltage = 0
+
+  IO.foreach(filename) do |line|
+    line = line.strip
+    digits = line.chars.map { |c| Integer(c) }
+    joltage = max_pair(digits)
+    total_joltage += joltage
+  end
+
+  puts total_joltage
+end
+
 def max_pair(digits)
   max_left = 0
   max_value = 0
@@ -9,7 +22,7 @@ def max_pair(digits)
     if d1 > max_left
       max_left = d1
     end
-    digits[i+1..-1].each do |d2|
+    digits[i + 1..-1].each do |d2|
       value = d1 * 10 + d2
       if value > max_value
         max_value = value
@@ -19,13 +32,7 @@ def max_pair(digits)
   max_value
 end
 
-total_joltage = 0
-
-IO.foreach(ARGV[0]) do |line|
-  line = line.strip
-  digits = line.chars.map {|c| Integer(c)}
-  joltage = max_pair(digits)
-  total_joltage += joltage
+if __FILE__ == $0
+  filename = ARGV.length > 0 ? ARGV[0] : File.join(File.dirname(__FILE__), "test.txt")
+  process(filename)
 end
-
-puts total_joltage

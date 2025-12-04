@@ -1,6 +1,19 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+def process(filename)
+  total_joltage = 0
+
+  IO.foreach(filename) do |line|
+    line = line.strip
+    digits = line.chars.map { |c| Integer(c) }
+    joltage = max_number(digits, 12)
+    total_joltage += joltage
+  end
+
+  puts total_joltage
+end
+
 def max_number(digits, length)
   fail ArgumentError if digits.length < length
 
@@ -17,13 +30,7 @@ def max_number(digits, length)
   n
 end
 
-total_joltage = 0
-
-IO.foreach(ARGV[0]) do |line|
-  line = line.strip
-  digits = line.chars.map {|c| Integer(c)}
-  joltage = max_number(digits, 12)
-  total_joltage += joltage
+if __FILE__ == $0
+  filename = ARGV.length > 0 ? ARGV[0] : File.join(File.dirname(__FILE__), "test.txt")
+  process(filename)
 end
-
-puts total_joltage
