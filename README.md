@@ -36,3 +36,8 @@ Reacquainted myself with Ruby's slicing syntax `[start, length]` vs. `[from..to]
 ## Day 03 - Lobby
 
 The solution is simple, but I had a few false starts.
+
+## Day 04 - Printing Department
+
+I haven't yet rediscovered the elegance of Ruby. But I have
+understood that the Perl-ish `$ARGV` is now `ARGV` :-D
