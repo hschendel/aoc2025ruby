@@ -43,3 +43,10 @@ The solution is simple, but I had a few false starts.
 
 I haven't yet rediscovered the elegance of Ruby. But I have
 understood that the Perl-ish `$ARGV` is now `ARGV` :-D
+
+## Day 05 - Cafeteria
+
+I had started building my own `Range` class until it dawned on me that I really
+should use Ruby's existing class. Of course, at first, I forgot to merge with
+possibly adjacent classes in the list.
+Also, having a builtin `bsearch` method for binary search in `Array` was helpful.
