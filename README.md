@@ -50,3 +50,7 @@ I had started building my own `Range` class until it dawned on me that I really
 should use Ruby's existing class. Of course, at first, I forgot to merge with
 possibly adjacent classes in the list.
 Also, having a builtin `bsearch` method for binary search in `Array` was helpful.
+
+## Day 06 - Trash Compactor
+
+Nothing to see here. Ruby is built for text processing.
