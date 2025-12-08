@@ -57,3 +57,9 @@ Nothing to see here. Ruby is built for text processing.
 
 The first serious combinatorial explosion. Also, I discovered `ARGF`. I have still
 bad memories reading code-golfed Perl scripts, so I won't use `$<` :-D
+
+## Day 08 - Playground
+
+Transforming hashes and arrays using `.map` or `.group_by` definitely feels
+better in a statically typed language such as Java. Other than that the code
+seems compact but yet readable, and I did not have to waste time on boilerplate.
