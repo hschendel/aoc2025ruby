@@ -63,3 +63,10 @@ bad memories reading code-golfed Perl scripts, so I won't use `$<` :-D
 Transforming hashes and arrays using `.map` or `.group_by` definitely feels
 better in a statically typed language such as Java. Other than that the code
 seems compact but yet readable, and I did not have to waste time on boilerplate.
+
+## Day 09 - Movie Theater
+
+Had to give up on part two after wasting two more day's timeboxes :-D
+Probably my approach is not simple enough and still manages to not cover
+all existing edge cases. I did an SVG plot of the shape though, but my solution
+did not bite.
