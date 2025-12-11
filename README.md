@@ -66,7 +66,7 @@ seems compact but yet readable, and I did not have to waste time on boilerplate.
 
 ## Day 09 - Movie Theater
 
-Had to give up on part two after wasting two more day's timeboxes :-D
-Probably my approach is not simple enough and still manages to not cover
-all existing edge cases. I did an SVG plot of the shape though, but my solution
-did not bite.
+Had to almost give up on part two after wasting two more day's timeboxes :-D
+Then, while doing grocery shopping I had the idea that I only need to check the
+"inside" rectangle (moving all corners by 1 unit inside on both axes)
+to avoid all the trouble with overlapping borders.
