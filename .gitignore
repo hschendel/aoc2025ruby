@@ -57,3 +57,6 @@ build-iPhoneSimulator/
 
 # IDE
 .idea
+
+input.txt
+test.txt

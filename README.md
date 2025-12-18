@@ -70,3 +70,8 @@ Had to almost give up on part two after wasting two more day's timeboxes :-D
 Then, while doing grocery shopping I had the idea that I only need to check the
 "inside" rectangle (moving all corners by 1 unit inside on both axes)
 to avoid all the trouble with overlapping borders.
+
+# Day 10 - Factory
+
+I will implement part two when I find the motivation to implement Gaussian elimination
+in Ruby. Last time I did this (in C) is quite a while ago.
